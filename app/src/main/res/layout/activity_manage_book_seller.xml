@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manage_book_seller">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/booktown_purple"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/seller_menu_whole"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnavbar"
+        android:layout_width="411dp"
+        android:layout_height="55dp"
+        app:itemIconTint="@color/booktown_purple"
+        app:itemTextColor="@color/booktown_purple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_seller" />
+
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="620dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomnavbar"
+        app:layout_constraintTop_toBottomOf="@+id/my_toolbar"
+        tools:layout_editor_absoluteX="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".manage_book">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="98dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="4dp"
+                android:text="Quantity:1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="98dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="4dp"
+                android:text="Quantity:1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="98dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="Discount:20%"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.12"
+                app:layout_constraintStart_toEndOf="@+id/textView30"
+                app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="279dp"
+                android:layout_height="61dp"
+                android:layout_marginTop="20dp"
+                android:text="Advanced Python Programming New Syllabus 2022 Edition English Medium
+            Book:Atul Prakashan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.363"
+                app:layout_constraintStart_toEndOf="@+id/imageButton9"
+                app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="72dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView28"
+                app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="436dp"
+                android:layout_height="55dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:text="Manage Books"
+                android:textColor="@color/booktown_purple"
+                android:textSize="34sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="98dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="16dp"
+                android:text="Price:200"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="98dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="4dp"
+                android:background="#AE6C63FF"
+                android:text="Sold"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.279"
+                app:layout_constraintStart_toEndOf="@+id/textView32"
+                app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="231dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="72dp"
+                android:backgroundTint="@color/booktown_purple"
+                android:text="Remove"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.577"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView29" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="72dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="104dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+                app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="98dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="4dp"
+                android:background="#AE6C63FF"
+                android:text="Sold"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.279"
+                app:layout_constraintStart_toEndOf="@+id/textView37"
+                app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="98dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="16dp"
+                android:text="Price:150"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="98dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="Discount:20%"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.12"
+                app:layout_constraintStart_toEndOf="@+id/textView35"
+                app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="98dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="4dp"
+                android:text="Quantity:1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="279dp"
+                android:layout_height="61dp"
+                android:text="Applied Chemistry New Syllabus 2022 Edition Diploma Engineering Book:Atul Prakashan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.363"
+                app:layout_constraintStart_toEndOf="@+id/imageButton10"
+                app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="231dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="72dp"
+                android:backgroundTint="@color/booktown_purple"
+                android:text="Remove"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="72dp"
+                android:layout_height="64dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="104dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+                app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="279dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="8dp"
+                android:text="Applied Physics New Syllabus 2021 Edition Diploma Engineering English Medium : Atul Prakashan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.363"
+                app:layout_constraintStart_toEndOf="@+id/imageButton11"
+                app:layout_constraintTop_toBottomOf="@+id/button17" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="98dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="16dp"
+                android:text="Discount:20%"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.279"
+                app:layout_constraintStart_toEndOf="@+id/textView42"
+                app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="98dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="4dp"
+                android:background="#AE6C63FF"
+                android:text="Sold"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.036"
+                app:layout_constraintStart_toEndOf="@+id/textView43"
+                app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="98dp"
+                android:layout_height="26dp"
+                android:layout_marginStart="104dp"
+                android:layout_marginTop="16dp"
+                android:text="Price:250"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="231dp"
+                android:layout_height="41dp"
+                android:layout_marginTop="72dp"
+                android:backgroundTint="@color/booktown_purple"
+                android:text="Remove"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.577"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="407dp"
+                android:layout_height="126dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button13"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/manage_book" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

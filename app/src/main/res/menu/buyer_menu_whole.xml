@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/wishlist"
+        android:title="Wishlist" />
+    <item
+        android:id="@+id/edit"
+        android:title="Edit Profile" />
+    <item
+        android:id="@+id/myorder"
+        android:title="My Orders"></item>
+    <item
+        android:id="@+id/manage"
+        android:title="Manage Books" />
+    <item
+        android:id="@+id/add"
+        android:title="Add Books" />
+    <item
+        android:id="@+id/sellingorder"
+        android:title="Selling Orders" />
+    <item
+        android:id="@+id/category"
+        android:title="Categories" />
+    <item
+        android:id="@+id/subscription"
+        android:title="Subscription" />
+    <item
+        android:id="@+id/about"
+        android:title="About Us" />
+    <item
+        android:id="@+id/help"
+        android:title="Help" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+</menu>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/booktown_purple"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/buyer_menu_whole"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="620dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomnavbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="195dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/booktown_purple"
+                android:text="  Fiction  "
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="@color/booktown_purple"
+                app:layout_constraintEnd_toEndOf="@+id/button"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/button"
+                app:layout_constraintTop_toBottomOf="@+id/button" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="195dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/booktown_purple"
+                android:text="Engineering"
+                android:textColor="#FFEBEE"
+                android:textSize="20sp"
+                app:backgroundTint="@color/booktown_purple"
+                app:layout_constraintEnd_toEndOf="@+id/button6"
+                app:layout_constraintStart_toStartOf="@+id/button6"
+                app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="195dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/booktown_purple"
+                android:text="Fantasy"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:backgroundTint="@color/booktown_purple"
+                app:layout_constraintEnd_toEndOf="@+id/button12"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/button12"
+                app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="195dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/booktown_purple"
+                android:text="History"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="@color/booktown_purple"
+                app:layout_constraintEnd_toEndOf="@+id/button5"
+                app:layout_constraintStart_toStartOf="@+id/button5"
+                app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="195dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Fairytale"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="@color/booktown_purple"
+                app:layout_constraintStart_toEndOf="@+id/button"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="195dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/booktown_purple"
+                android:fontFamily="sans-serif-medium"
+                android:text="Comedy"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:backgroundTint="@color/booktown_purple"
+                app:layout_constraintEnd_toEndOf="@+id/button17"
+                app:layout_constraintStart_toStartOf="@+id/button17"
+                app:layout_constraintTop_toBottomOf="@+id/button17" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="190dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="28dp"
+                android:background="@color/white"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="Categories"
+                android:textColor="@color/booktown_purple"
+                android:textSize="35sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.425"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="195dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/booktown_purple"
+                android:fontFamily="sans-serif-medium"
+                android:text="Crime"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:backgroundTint="@color/booktown_purple"
+                app:layout_constraintEnd_toEndOf="@+id/button4"
+                app:layout_constraintStart_toStartOf="@+id/button4"
+                app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="195dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/booktown_purple"
+                android:fontFamily="sans-serif-medium"
+                android:text="Biography"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:backgroundTint="@color/booktown_purple"
+                app:layout_constraintEnd_toEndOf="@+id/button10"
+                app:layout_constraintStart_toStartOf="@+id/button10"
+                app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="195dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="24dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Horror"
+                android:textSize="20sp"
+                app:backgroundTint="@color/booktown_purple"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="195dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/booktown_purple"
+                android:fontFamily="sans-serif-medium"
+                android:text="Suspense"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                app:backgroundTint="@color/booktown_purple"
+                app:layout_constraintEnd_toEndOf="@+id/button13"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/button13"
+                app:layout_constraintTop_toBottomOf="@+id/button13" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomnavbar"
+        android:layout_width="411dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        app:itemIconTint="@color/booktown_purple"
+        app:itemTextColor="@color/booktown_purple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu_user" >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</androidx.constraintlayout.widget.ConstraintLayout>

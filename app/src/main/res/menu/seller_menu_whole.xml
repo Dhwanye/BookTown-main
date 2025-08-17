@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/edit"
+        android:title="Edit Profile" />
+    <item
+        android:id="@+id/addbook"
+        android:title="Add Books" />
+    <item
+        android:id="@+id/myorder"
+        android:title="My Orders" />
+    <item
+        android:id="@+id/help"
+        android:title="Help" />
+    <item
+        android:id="@+id/about"
+        android:title="About Us" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" />
+</menu>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.booktown">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BookTown"
+        tools:targetApi="31">
+        <activity
+            android:name=".about_us_delivery"
+            android:exported="false" />
+        <activity
+            android:name=".Recommendation_seller"
+            android:exported="false"></activity>
+        <activity
+            android:name=".buy_book_payment"
+            android:exported="false" />
+        <activity
+            android:name=".buy_book"
+            android:exported="false" />
+        <activity
+            android:name=".buyer_my_profile"
+            android:exported="false" />
+        <activity
+            android:name=".delivery_my_profile"
+            android:exported="false" />
+        <activity
+            android:name=".seller_company_info_profile"
+            android:exported="false" />
+        <activity
+            android:name=".seller_my_profile"
+            android:exported="false" />
+        <activity
+            android:name=".manage_book_seller"
+            android:exported="false" />
+        <activity
+            android:name=".forget_password"
+            android:exported="false" />
+        <activity
+            android:name=".about_us_seller"
+            android:exported="false" />
+        <activity
+            android:name=".about_us_buyer"
+            android:exported="false" />
+        <activity
+            android:name=".add_book_seller"
+            android:exported="false" />
+        <activity
+            android:name=".whishlist_buyer"
+            android:exported="false" />
+        <activity
+            android:name=".help_seller"
+            android:exported="false" />
+        <activity
+            android:name=".help_delivery"
+            android:exported="false" />
+        <activity
+            android:name=".help"
+            android:exported="false" />
+        <activity
+            android:name=".book_details_seller"
+            android:exported="false" />
+        <activity
+            android:name=".cart"
+            android:exported="false" />
+        <activity
+            android:name=".edit_profile_delivery"
+            android:exported="false" />
+        <activity
+            android:name=".edit_profile_seller"
+            android:exported="false" />
+        <activity
+            android:name=".edit_profile_buyer"
+            android:exported="true" />
+        <activity
+            android:name=".Recommendation"
+            android:exported="false" />
+        <activity
+            android:name=".book_details_specific"
+            android:exported="false" />
+        <activity
+            android:name=".subscription"
+            android:exported="false" />
+        <activity
+            android:name=".category_list"
+            android:exported="false" />
+        <activity
+            android:name=".seller_orders"
+            android:exported="false" />
+        <activity
+            android:name=".Delivery_person_order_completed"
+            android:exported="false" />
+        <activity
+            android:name=".Delivery_person_orders_left"
+            android:exported="false" />
+        <activity
+            android:name=".admin_home"
+            android:exported="false" />
+        <activity
+            android:name=".SellerHome"
+            android:exported="false" />
+        <activity
+            android:name=".DeliveryPerson"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".create_account"
+            android:exported="false" />
+        <activity
+            android:name=".create_seller_company_info"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".buyer_ordered_books"
+            android:exported="false" />
+    </application>
+
+</manifest>

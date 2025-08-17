@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/drawable-v24/border.xml" value="0.201" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.201" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.201" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.201" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout-v21/toolbar_buyer.xml" value="0.1921875" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_about_us_buyer.xml" value="0.1875" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_about_us_delivery.xml" value="0.18020833333333333" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_about_us_seller.xml" value="0.19322916666666667" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_add_book_seller.xml" value="0.15" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_book_details_seller.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_book_details_specific.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_buy_book.xml" value="0.19322916666666667" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_buy_book_payment.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_buyer_my_profile.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_buyer_ordered_books.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_cart.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_category_list.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_create_account.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_create_seller_company_info.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_delivery_my_profile.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_delivery_person.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_delivery_person_order_completed.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_delivery_person_orders_left.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_edit_profile.xml" value="0.19322916666666667" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_edit_profile_delivery.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_edit_profile_seller.xml" value="0.13177083333333334" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_forget_password.xml" value="0.19322916666666667" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_help.xml" value="0.1875" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_help_delivery.xml" value="0.1875" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_help_seller.xml" value="0.1875" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_manage_book_seller.xml" value="0.19322916666666667" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_order_tracking.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_recommendation.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_recommendation_seller.xml" value="0.19322916666666667" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_seller_company_info_profile.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_seller_home.xml" value="0.16" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_seller_my_profile.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_seller_orders.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_subscription.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_top_menu_buyer.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/activity_whishlist_buyer.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/mytool.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/layout/toolbar_buyer.xml" value="0.19322916666666667" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/menu/back_button.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/menu/bottom_menu_admin.xml" value="0.19322916666666667" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/menu/bottom_menu_delivery_person.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/menu/bottom_nav_menu_user.xml" value="0.19322916666666667" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/menu/bottom_seller.xml" value="0.19322916666666667" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/menu/buyer_menu_whole.xml" value="0.19322916666666667" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/menu/delivery_menu_whole.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/menu/manage_books.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/menu/menu.xml" value="0.12" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/menu/seller_menu_whole.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/BookTown/app/src/main/res/menu/top_menu.xml" value="0.33" />
+        <entry key="..\:/Users/Datt Goswami/AndroidStudioProjects/BookTown/app/src/main/res/layout/activity_book_details_specific.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/Datt Goswami/AndroidStudioProjects/BookTown/app/src/main/res/layout/activity_buy_book.xml" value="0.21603260869565216" />
+        <entry key="..\:/Users/Datt Goswami/AndroidStudioProjects/BookTown/app/src/main/res/layout/activity_subscription.xml" value="0.21603260869565216" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
